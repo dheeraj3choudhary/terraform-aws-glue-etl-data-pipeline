@@ -1,0 +1,30 @@
+# Terraform state files
+
+*.tfstate
+*.tfstate.*
+
+# Terraform cache
+
+.terraform/
+
+# Crash logs
+
+crash.log
+
+# Sensitive variable files
+
+*.tfvars
+*.tfvars.json
+
+# CLI configuration files
+
+.terraformrc
+terraform.rc
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
