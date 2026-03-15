@@ -1,10 +1,39 @@
+<div align="center">
+
 # Terraform AWS Glue ETL Pipeline
+This project demonstrates how to provision a complete AWS Glue ETL pipeline using Terraform. The infrastructure creates S3 buckets for source data, processed data, and ETL scripts, along with the required IAM roles and Glue resources to crawl and process the dataset. The goal of this project is to show how Infrastructure as Code (IaC) can automate data engineering workflows on AWS.
 
-## Overview
 
-This project demonstrates how to provision a complete AWS Glue ETL pipeline using Terraform. The infrastructure creates S3 buckets for source data, processed data, and ETL scripts, along with the required IAM roles and Glue resources to crawl and process the dataset.
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+[![Amazon ECS](https://img.shields.io/badge/Amazon_ECS-FF9900?style=for-the-badge&logo=amazon-ecs&logoColor=white)](https://aws.amazon.com/ecs/)
+[![AWS Fargate](https://img.shields.io/badge/AWS_Fargate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/fargate/)
+[![Amazon ECR](https://img.shields.io/badge/Amazon_ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/ecr/)
+[![AWS Glue](https://img.shields.io/badge/AWS_Glue-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/glue/)
+[![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3/)
+[![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)](https://aws.amazon.com/ec2/)
+[![Elastic Load Balancer](https://img.shields.io/badge/Elastic_Load_Balancer-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/elasticloadbalancing/)
+[![IAM](https://img.shields.io/badge/AWS_IAM-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/iam/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-The goal of this project is to show how Infrastructure as Code (IaC) can automate data engineering workflows on AWS.
+<a href="https://www.buymeacoffee.com/Dheeraj3" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="50">
+</a>
+
+## [Subscribe](https://www.youtube.com/@dheeraj-choudhary?sub_confirmation=1) to learn more About Artificial-Intellegence, Machine-Learning, Cloud & DevOps.
+
+<p align="center">
+<a href="https://www.linkedin.com/in/dheeraj-choudhary/" target="_blank">
+  <img height="100" alt="Dheeraj Choudhary | LinkedIN"  src="https://user-images.githubusercontent.com/60597290/152035581-a7c6c0c3-65c3-4160-89c0-e90ddc1e8d4e.png"/>
+</a> 
+
+<a href="https://www.youtube.com/@dheeraj-choudhary?sub_confirmation=1">
+    <img height="100" src="https://user-images.githubusercontent.com/60597290/152035929-b7f75d38-e1c2-4325-a97e-7b934b8534e2.png" />
+</a>    
+</p>
+
+</div>
 
 ## Architecture
 
