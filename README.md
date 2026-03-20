@@ -3,6 +3,7 @@
 # Terraform AWS Glue ETL Pipeline
 This project demonstrates how to provision a complete AWS Glue ETL pipeline using Terraform. The infrastructure creates S3 buckets for source data, processed data, and ETL scripts, along with the required IAM roles and Glue resources to crawl and process the dataset. The goal of this project is to show how Infrastructure as Code (IaC) can automate data engineering workflows on AWS.
 
+<img width="1280" height="720" alt="Docker Essentials (8)" src="https://github.com/user-attachments/assets/7d430705-3f37-4e8d-9cd2-14beba280d4f" />
 
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
